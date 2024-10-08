@@ -23,7 +23,6 @@ namespace agenda_project
 
         private void btn_cadastrar_Click(object sender, EventArgs e)
         {
-            this.Hide();
             FrmCadastro cadastro = new FrmCadastro();
             cadastro.ShowDialog();
         }
