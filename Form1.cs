@@ -41,5 +41,10 @@ namespace agenda_project
         {
             Application.Exit();
         }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

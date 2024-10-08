@@ -61,6 +61,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(244, 28);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // textBox2
             // 
@@ -69,6 +70,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(244, 28);
             textBox2.TabIndex = 3;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // label2
             // 
@@ -88,6 +90,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(244, 28);
             textBox3.TabIndex = 5;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // label3
             // 
@@ -107,6 +110,7 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(244, 28);
             textBox4.TabIndex = 7;
+            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // label4
             // 
@@ -126,6 +130,7 @@
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(244, 28);
             textBox5.TabIndex = 9;
+            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // label5
             // 
@@ -142,6 +147,7 @@
             // 
             btn_cadastrar.BackColor = Color.Blue;
             btn_cadastrar.Cursor = Cursors.Hand;
+            btn_cadastrar.Enabled = false;
             btn_cadastrar.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_cadastrar.ForeColor = Color.White;
             btn_cadastrar.Location = new Point(59, 387);
@@ -150,6 +156,7 @@
             btn_cadastrar.TabIndex = 10;
             btn_cadastrar.Text = "Cadastrar";
             btn_cadastrar.UseVisualStyleBackColor = false;
+            btn_cadastrar.Click += btn_cadastrar_Click;
             // 
             // btn_cancel
             // 
@@ -163,6 +170,7 @@
             btn_cancel.TabIndex = 11;
             btn_cancel.Text = "Cancelar";
             btn_cancel.UseVisualStyleBackColor = false;
+            btn_cancel.Click += btn_cancel_Click;
             // 
             // FrmCadastro
             // 
